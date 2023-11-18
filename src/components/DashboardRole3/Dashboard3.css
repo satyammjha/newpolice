@@ -1,0 +1,155 @@
+nav {
+    width: 100%;
+}
+
+.dashMainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashCompoContain {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #FFD58A;
+    font-weight: 600;
+    margin-left: 4%;
+}
+
+
+.mapContainer {
+    height: 35vh;
+    width: 52vw;
+    background-color: rgba(0, 0, 255, 0.298);
+    margin-left: 1%;
+}
+
+.leftBottomContainer {
+    display: flex;
+}
+
+.leftBottomLeftContainer h3 {
+    margin-left: 4%;
+}
+
+.lineChartContainer {
+    margin-left: 4%;
+    margin-top: -3%;
+}
+
+.criticalSymbol {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.crtclHead {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.criticalCrcl {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin-left: -8px;
+    margin-top: -7px;
+}
+
+.crtclHead h4 {
+    color: white;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.criticalcasecomcont {
+    margin-left: 4%;
+}
+
+.leftBottomRight {
+    margin-left: -25%;
+}
+
+.leftBottomRight h3 {
+    color: white;
+    margin-left: 10px;
+}
+
+.dash3RightContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-top: 2%;
+}
+
+.dashRightResourcesDat {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashRightResourcesData {
+    margin-left: -10%;
+    color: white;
+}
+
+.dash3RightContainer h2 {
+    font-weight: 500;
+}
+
+.resourceData {
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.resourceData span {
+    margin-right: 25px;
+}
+
+.veh {
+    color: aqua;
+}
+
+.guns {
+    color: red;
+}
+
+.facilities {
+    color: #FFD58A;
+}
+
+.resourceAllocContainer {
+    margin-left: -10%;
+    margin-top: 12%;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.resourceAllocContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.resourceAllocContainer h2 {
+    color: white;
+    position: sticky;
+    top: -1px;
+    padding: 5px;
+    background-color: #111312;
+}
+
+.mapContainer {
+    overflow-y: hidden;
+}

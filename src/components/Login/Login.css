@@ -1,0 +1,148 @@
+/* .navbar {
+  display: none;
+} */
+
+.loginMainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftImagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  overflow-y: hidden;
+  float: left;
+  left: 0;
+  position: absolute;
+}
+
+.leftImagesContainer img {
+  width: 35vw;
+  height: 30vh;
+  border-radius: 0 3px 3px 0;
+  filter: brightness(60%);
+}
+
+.rightImagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  overflow-y: hidden;
+  float: right;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.rightImagesContainer img {
+  width: 35vw;
+  height: 30vh;
+  border-radius: 3px 0 0 3px;
+  filter: brightness(60%);
+}
+
+.loginFieldContainer {
+  position: absolute;
+  background-color: rgb(32, 32, 32);
+  height: 35rem;
+  width: 25rem;
+  margin-left: 30%;
+  margin-top: 10%;
+  border-radius: 3px;
+}
+
+.loginFieldContainer img {
+  height: 20vh;
+  margin-left: 32%;
+  margin-top: 5%;
+}
+
+fieldset {
+  position: relative;
+  border: 2px solid #595959;
+  border-radius: 2px;
+  padding: 0;
+  width: 80%;
+  margin-left: 10%;
+  color: #595959;
+  height: 4rem;
+  margin-bottom: 20px;
+}
+
+fieldset legend {
+  color: #595959;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+}
+
+fieldset input {
+  background-color: unset;
+  border: unset;
+  width: 100%;
+  outline: none;
+}
+
+.faceScanContainer {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  width: max-content;
+  text-align: center;
+  width: 70%;
+  border-radius: 3px;
+  border: 1px solid cyan;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.faceScanContainer:hover {
+  background-color: rgba(0, 0, 0, 0.454);
+  border: 1px solid rgba(0, 255, 255, 0.57);
+  font-weight: bold;
+}
+
+.faceScanContainer img {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 0;
+
+}
+
+.faceScanContainer p {
+  color: white;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.webcamContainer {
+  position: absolute;
+  margin-left: -80%;
+  margin-top: -100%;
+}
+
+.webcamContainer video {
+  width: 60vw;
+  height: 50vh;
+  z-index: 100;
+}
+
+.loginMsg {
+  display: none;
+  flex-direction: column;
+  color: rgb(3, 228, 187);
+  font-weight: bold;
+  /* z-index: 100; */
+  position: absolute;
+  width: max-content;
+  margin: 26% 35%;
+}
+
+.loginMsg p {
+  color: white;
+  margin-top: 3px;
+}

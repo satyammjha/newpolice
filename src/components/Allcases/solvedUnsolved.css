@@ -1,0 +1,121 @@
+.solvedUnsolvedContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: #333333;
+    width: max-content;
+    border-radius: 5px;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.solvedUnsolvedToggleContainer {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+    top: -15px;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 3px;
+    gap: 2rem;
+}
+
+.activecasedisplay {
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.inactivecasedisplay {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #333333;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#unsolved {
+    margin-right: 15rem;
+
+
+}
+
+.caseitem {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #49d3a5;
+    width: max-content;
+    padding: 2px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.caseTypecontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.casetyp1,
+.casetyp2 {
+    color: white;
+    border-radius: 3px;
+    margin-right: 20px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: white;
+    font-weight: white;
+}
+
+.casetyp1 {
+    background-color: red;
+}
+
+.casetyp2 {
+    background-color: rgb(255, 213, 0);
+    margin: 0 10px;
+    width: 6rem;
+    text-align: center;
+}
+
+#caseSummary {
+    width: 30rem;
+    color: rgb(184, 184, 184);
+}
+
+#casestatus {
+    background-color: #49d3a5;
+    color: white;
+    font-weight: bold;
+    margin: 2px;
+    width: max-content;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.solvedUnsolvedContainer {
+    scrollbar-width: thin;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer and Edge */
+}
+
+.solvedUnsolvedContainer::-webkit-scrollbar {
+    width: 0.5em;
+    /* Adjust the width as needed */
+}
+
+.solvedUnsolvedContainer::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* or any color you prefer */
+}
+
+.searchSolvedUnsolved input{
+    width: 10rem;
+    margin-left: 50%;
+}

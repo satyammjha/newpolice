@@ -1,0 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+
+    font: 14px/1.5 Arial, sans-serif;
+    /* background: darkgreen; */
+}
+
+body {
+    /* background: lightgreen; */
+    padding: 0;
+    /* height: 100%; */
+    margin: 0 0;
+    background-color: #111312;
+    /* overflow-y: hidden; */
+}
+
+
+.app {
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}

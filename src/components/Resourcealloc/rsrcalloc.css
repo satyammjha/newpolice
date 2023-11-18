@@ -1,0 +1,111 @@
+.areaName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#area {
+    color: white;
+}
+
+.rsrcDetails p {
+    color: white;
+    font-weight: 400;
+}
+
+.rsrcDetails {
+    margin-top: 20px;
+}
+
+.rsrcdesc {
+    color: white;
+}
+
+.rsrcdesc {
+    margin-top: 10px;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.acceptBtn {
+    display: flex;
+    gap: 5px;
+}
+
+.RejectBtn {
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+#rjctBtn {
+    transition: 0.1s ease-in;
+}
+
+#rjctBtn:hover {
+    background-color: rgba(255, 0, 0, 0.451);
+    color: white;
+}
+
+#acceptBtn {
+    transition: 0.1s ease-in;
+}
+
+#acceptBtn:hover {
+    background-color: rgba(172, 255, 47, 0.683);
+    cursor: pointer;
+    color: white;
+}
+
+.acceptBtnCrcl {
+    height: 30px;
+    width: 30px;
+    background-color: greenyellow;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.rjctBtnCrcl {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#acceptBtn {
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#rjctBtn {
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 54, 47);
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.btnContainer {
+    margin-top: 20px;
+}
+
+.resourceAllocitems {
+    border: 1px solid green;
+    padding: 10px;
+    width: 30vw;
+    margin-top: 20px;
+
+}

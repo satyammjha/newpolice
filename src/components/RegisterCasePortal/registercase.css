@@ -1,0 +1,98 @@
+body {
+    overflow-x: hidden;
+}
+
+.registercasecontainer {
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 23%;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+}
+
+.registercasecontainer h1 {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+}
+
+.basicDetailsContainer,
+.incidentDetailsContainer,
+.suspectDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+form {
+    flex-direction: column;
+}
+
+.input {
+
+    margin: 10px;
+    height: 6vh;
+    width: 50vw;
+}
+
+.registerCaseContainer .complaineeDetails,
+.victimDetails,
+.timeanddateofincident,
+.locationandtypeofincident {
+    display: flex;
+    flex-direction: row;
+}
+
+.basicDetailsContainer input,
+.incidentDetailsContainer input,
+.suspectDetailsContainer input,
+.evidenceDetailsContainer input {
+
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.navtop-register {
+    position: sticky;
+    top: 0;
+}
+
+.suspectnameandinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    gap: unset;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.501);
+    padding: 20px;
+    width: 20vw;
+    border-radius: 1px;
+}
+
+p {
+    color: red;
+    margin-top: -11px;
+    font-weight: bold;
+}
+
+
+
+.complaineeDetails,
+.victimDetails,
+.incidentDetailsContainer,
+.locationandtypeofincident,
+.suspectDetailsContainer {
+    width: 150vw;
+}

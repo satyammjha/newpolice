@@ -1,0 +1,133 @@
+.newPopupMainContainer {
+    position: absolute;
+    height: 70vh;
+    width: 40vw;
+    background-color: black;
+    z-index: 1;
+    margin-left: 24%;
+    margin-top: 10%;
+    border-radius: 10px;
+
+}
+
+.popupttl {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25%;
+    border-bottom: 1px solid white;
+}
+
+.compDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(120, 120, 120);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 11rem;
+    margin-top: 3rem;
+}
+
+#category {
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.takeAction {
+    font-weight: 400;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 8px 30px;
+    border: 1px solid white;
+    width: max-content;
+    background-color: rgba(0, 128, 0, 0.462);
+    transition: 0.1s ease all;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-top: 10px;
+
+}
+
+.takeAction:hover {
+    background-color: rgba(255, 0, 0, 0.194);
+}
+
+.compDetailsCont {
+    display: flex;
+    flex-direction: column;
+    color: rgb(109, 109, 109);
+    width: 30rem;
+    text-align: justify;
+    margin-left: 16%;
+}
+
+.compDetails {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -10px;
+
+}
+
+.compDetailsCont h3 {
+    background-color: rgba(0, 128, 0, 0.39);
+    width: max-content;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.closePop {
+    background-color: rgba(255, 0, 0, 0.194);
+    width: max-content;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-left: 42%;
+    margin-top: 10px;
+
+}
+
+.closePop:hover {
+    background-color: rgba(255, 0, 0, 0.307);
+}
+
+#compId,
+#compName,
+#mobNum,
+#dateOfInci,
+#category {
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#loader {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-top: 20%;
+    margin-left: 23%;
+    display: none;
+}
+
+.loaderContent {
+    position: absolute;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.processing,
+.receiving,
+.sending {
+    display: none;
+}

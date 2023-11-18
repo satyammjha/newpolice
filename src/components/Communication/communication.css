@@ -1,0 +1,188 @@
+.communiItemContainer {
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.513);
+    height: 79vh;
+    width: 35vw;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+
+.communiItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.517);
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.1s easein;
+}
+
+.communiItem:hover {
+
+    background-color: rgba(128, 128, 128, 0.11);
+
+}
+
+.ChatNameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chatName {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.chatDesc {
+    margin-left: 20px;
+    color: rgba(128, 128, 128, 0.835);
+}
+
+.chatTime {
+    position: relative;
+    margin-left: 20%;
+}
+
+.communiSearch {
+    margin-left: 10%;
+    position: sticky;
+    margin-top: 2%;
+    top: 12%;
+}
+
+.communiSearch input {
+    background: none;
+    width: 25rem;
+    height: 3.5rem;
+    border-radius: 15px;
+    align-items: center;
+    text-align: -webkit-center;
+}
+
+
+.communiSearch input::placeholder {
+    color: gray;
+    font-weight: bold;
+
+}
+
+
+
+.communiLeftContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.communiItemContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.communiLeftRighContainer {
+
+    display: flex;
+}
+
+.communiRightTop {
+    display: flex;
+    color: white;
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.communiRightContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 15px 15px 5px 5px;
+    width: 40vw;
+    padding: 5px;
+    margin-left: 15%;
+    margin-top: 2%;
+    overflow-y: scroll;
+}
+
+.communiRightContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.activeStatus {
+    color: rgb(15, 215, 149);
+    font-weight: bold;
+    margin-left: 14%;
+}
+
+.chatOptionContainer {
+    display: flex;
+    gap: 2rem;
+    margin-left: 33%;
+}
+
+.chatOptionContainer img {
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.chatOptionContainer img:hover {
+    opacity: 0.8;
+}
+
+.threeDotsContainer {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.threeDotsContainer:hover {
+
+    opacity: 0.8;
+}
+
+.dots {
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 4.5px;
+}
+
+.communiBottomContainer {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    border-top: 1px solid rgba(128, 128, 128, 0.429);
+    padding: 10px;
+    width: 39vw;
+}
+
+.communiBottomContainer input {
+    width: 35vw;
+    margin-left: 1%;
+    margin-right: 7px;
+    background-color: rgba(45, 45, 45, 0.471);
+    border: unset;
+    border-radius: 10px;
+    align-items: center;
+}
+.communiBottomContainer img{
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+.communiBottomContainer img:hover{
+    opacity: 0.8;
+}

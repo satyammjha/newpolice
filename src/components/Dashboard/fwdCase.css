@@ -1,0 +1,71 @@
+.fwdMainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-items: center;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.fwdMainContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.fwdcaseitem {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.178);
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3 all ease-in;
+}
+
+.fwdcaseitem:hover {
+    background-color: black;
+}
+
+.fwdupdate {
+    margin-left: 20px;
+}
+
+.fwdtop {
+    display: flex;
+    flex-direction: row;
+}
+
+#casename {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+#casename {
+    margin-left: 10px;
+}
+
+h4 {
+    font-size: 12px;
+    width: max-content;
+}
+
+.fwdupdate {
+    border: 1px solid red;
+    width: max-content;
+    padding: 2px;
+    border-radius: 2px;
+    transition: 0.1s all ease;
+    cursor: pointer;
+}
+
+.fwdupdate:hover {
+    background-color: rgba(255, 0, 0, 0.424);
+}
+
+.date {
+    margin-left: 1px;
+}

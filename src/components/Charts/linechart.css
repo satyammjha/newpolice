@@ -1,0 +1,33 @@
+.lineChartTop {
+    display: flex;
+    background-color: #14161F;
+    color: white;
+    width: max-content;
+}
+
+.svnDays {
+    border-radius: 2px;
+    /* margin-left: 35%; */
+    width: 13.8rem;
+    height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: -webkit-center;
+}
+
+.activeMonthLineChart {
+    background-color: black;
+    /* width: 30rem; */
+    cursor: pointer;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.pastMonths {
+    margin-left: 15%;
+    width: 16rem;
+    margin: inherit;
+    background-color: #14161F;
+}

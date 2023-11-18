@@ -1,0 +1,85 @@
+.detailCont {
+  width: 100%;
+}
+
+.caseidandname {
+  display: flex;
+  font-display: row;
+  gap: 50px;
+}
+
+.caseidandname {
+  color: white;
+  align-items: center;
+
+  margin-left: 10%;
+}
+
+#caseid,
+#casename {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tagcontainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 30px;
+  width: max-content;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.casetags {
+  padding: 3px 10px;
+  border: 1px solid white;
+  background-color: rgba(255, 0, 0, 0.412);
+  border-radius: 4px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.caseLeftContainer {
+
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+
+}
+
+.caseDet {
+  color: white;
+  width: 30vw;
+  text-align: justify;
+  border: 1px solid rgba(128, 128, 128, 0.582);
+  padding: 10px;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 40vh;
+  border-radius: 3px;
+}
+
+.caseRightCon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+
+.caseLefRigCont {
+  display: flex;
+}
+
+.caseRightCon h1 {
+  width: max-content;
+}
+
+.caseRightCon img {
+  height: 30rem;
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+.compDetailsContainer{
+  display: flex;flex-direction: column;
+}
