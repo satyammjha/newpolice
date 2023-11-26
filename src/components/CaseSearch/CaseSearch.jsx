@@ -13,7 +13,7 @@ const CaseSearch = () => {
 
 
 
-  
+
   const [initialCases] = useState([
     {
       id: 1,
