@@ -6,7 +6,6 @@ import police3 from '../../img/police3.jpeg';
 import logo from '../../img/logo.png';
 import captureImg from '../../img/capture.png';
 import Webcam from 'react-webcam';
-
 const Login = () => {
   const [showWebcam, setShowWebcam] = useState(false);
 

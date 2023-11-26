@@ -36,238 +36,239 @@ const EvidencePortal = () => {
   const caseFolders = [
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
+      caseDate: '11/11/23',
+      evidenceUsed: 'Investigation',
+      evidenceList: ['Evidence 1', 'Evidence 2']
+    },
+
+    {
+      caseId: '12345',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']
     },
     {
       caseId: '12345',
-      caseName: 'Case 1',
-      caseDate: '11/11/23',
-      evidenceUsed: 'Investigation',
-      evidenceList: ['Evidence 1', 'Evidence 2']
-    },
-    {
-      caseId: '12345',
-      caseName: 'Case 1',
+      caseName: 'case name',
       caseDate: '11/11/23',
       evidenceUsed: 'Investigation',
       evidenceList: ['Evidence 1', 'Evidence 2']

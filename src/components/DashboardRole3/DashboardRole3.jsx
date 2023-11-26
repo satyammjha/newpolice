@@ -17,12 +17,11 @@ const DashboardRole3 = () => {
                 <Navtop />
                 <NewCasePopup />
                 <div className="dashCompoContain">
-                    
+
                     <div className="dash3LeftContainer">
                         <h1>Officers Dashboard</h1>
                         <div className="mapContainer">
                             <DistrictWiseCrimeMap />
-
                         </div>
 
                         <div className="leftBottomContainer">

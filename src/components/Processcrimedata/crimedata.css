@@ -1,0 +1,11 @@
+.nav-top {}
+
+.crimedatamaincontainer {
+    width: 100%;
+}
+
+.crimeDatahead {
+    position: absolute;
+    color: rgba(0, 0, 255, 0.747);
+    font-weight: bold;
+}

@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-
 const Navtop = () => {
 
   const [isHovered, setIsHovered] = useState(false);
@@ -26,11 +25,15 @@ const Navtop = () => {
   }
   return (
     <div className='nav-top'>
-      <div className="search">
+      {/* <div className="search">
         <input class="mainLoginInput" type="text" placeholder="Search a keyword here.." />
-        {/* <span class="icon">🔍</span> */}
-      </div>
+         <span class="icon">🔍</span> 
+      </div> */}
       <div className='nav-top-links' style={linkStyle}>
+
+
+<div className="navTopLeft">
+
         <Link to="/RegistereCase">
           <div className="navTop-registerCase-ttl" style={style} onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}>Register a Case</div>
@@ -39,11 +42,12 @@ const Navtop = () => {
 
 
         <Link to="/communications">
-          
+
           <div className="Interactionlog" >Interaction log</div>
         </Link>
 
-
+        </div>
+<div className="navTopRight">
         <div>
           <img className='userpfp' src={userpfp} alt="" srcset="" />
         </div>
@@ -59,6 +63,7 @@ const Navtop = () => {
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5566 0.228516C12.4986 0.228516 10.8397 1.60503 9.23531 2.93636C7.78314 4.14124 6.41152 5.27922 4.89119 5.27922H2.36946C1.27258 5.27922 0.380371 6.17265 0.380371 7.27146V8.95516C0.380371 10.0538 1.27258 10.9472 2.36946 10.9472H2.48137V14.8477C2.48137 15.9463 3.37378 16.8399 4.47065 16.8399H5.31116C6.40803 16.8399 7.30025 15.9463 7.30025 14.8477V11.8017C7.94249 12.2192 8.58048 12.7476 9.23473 13.2906C10.8393 14.6216 12.4982 15.9985 14.5562 15.9985C16.3788 15.9983 17.8064 12.5349 17.8064 8.1135C17.8064 3.6919 16.3788 0.228516 14.5566 0.228516ZM6.68414 14.8479C6.68414 15.606 6.06823 16.2227 5.31136 16.2227H4.47084C3.71378 16.2227 3.09786 15.606 3.09786 14.8479V10.9472H4.89119C5.50827 10.9472 6.10075 11.1371 6.68414 11.4402V14.8479ZM9.62836 12.8151C8.15606 11.5932 6.6336 10.3299 4.89119 10.3299H2.36946C1.61258 10.3299 0.996672 9.71323 0.996672 8.95515V7.27146C0.996672 6.51339 1.61258 5.8965 2.36946 5.8965H4.891C6.63341 5.8965 8.15567 4.63305 9.62817 3.41168C10.7043 2.51882 11.8066 1.60677 13.01 1.14871C11.9878 2.46278 11.3065 5.05911 11.3065 8.1135C11.3065 11.1673 11.9877 13.7638 13.0096 15.0775C11.8066 14.6198 10.7043 13.7078 9.62836 12.8151ZM14.5566 15.381C13.2847 15.381 11.923 12.4608 11.923 8.1135C11.923 3.76599 13.2845 0.8456 14.5566 0.8456C15.8283 0.8456 17.1901 3.76599 17.1901 8.1135C17.1899 12.4608 15.8283 15.381 14.5566 15.381Z" fill="#D9D9D9" />
           </svg>
+        </div>
         </div>
       </div>
     </div>

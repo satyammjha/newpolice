@@ -1,4 +1,4 @@
-import React, { useState , useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./casePaage.css";
 import Navtop from "../Navbar/Navtop";
 import ImageComponent from "./imgbox";
@@ -55,6 +55,7 @@ const CasePagee = () => {
 
     const documentRef1 = db.collection('aM2yd3KJ09Ym92GQ7JymaOSwTbi1').doc('Alleged Details');
     const documentRef2 = db.collection('aM2yd3KJ09Ym92GQ7JymaOSwTbi1').doc('Incident Details');
+    const documentRef3 = db.collection('aM2yd3KJ09Ym92GQ7JymaOSwTbi1').doc('Complainant Details');
 
     documentRef1.get().then((doc) => {
       if (doc.exists) {
@@ -81,6 +82,26 @@ const CasePagee = () => {
           datefrom: data.datefrom || 'Not available',
           dateOfInci: data.datefrom || 'Not available',
         }));
+
+
+
+        documentRef3.get().then((doc) => {
+          if (doc.exists) {
+            const data = doc.data();
+            setComplaintData((prevData) => ({
+              ...prevData,
+              eyewitness: data.email || 'Not available',
+              eyewitmob: data.mobile || 'Not available',
+              eyewitloc: data.location || 'Not available',
+
+            }));
+          } else {
+            console.log('No such document2!');
+          }
+        });
+
+
+
       } else {
         console.log('No such document2!');
       }
@@ -157,7 +178,7 @@ const CasePagee = () => {
         <div className="casepage-mainsection-left">
           <div className="case-top">
             <div className="case-top-left">
-              <div className="case-head">{complaintData.compId}: {complaintData.compName}</div>
+              <div className="case-head">Case Name: {complaintData.compId}</div>
 
             </div>
           </div>
@@ -178,27 +199,14 @@ const CasePagee = () => {
                 <div className="caseNameAndTag">
                   <h2 className="flex-head">{complaintData.details}</h2>
 
-                  <div className="case-tag">
-                    <div className="tag g">Highly Critical</div>
+                  <div id="caseTagCont">
+                    <div className="tag g">{complaintData.category}</div>
                     <div className="tag r">Murder</div>
                     <div className="tag">Forwarded</div>
                   </div>
                 </div>
                 <div>
-                  The defence attorney claimed that Nobin Chandra had committed
-                  the act in a fit of rage and to ensure that his wife had to
-                  belong to him. It was claimed that when Elokeshi confessed
-                  about her actions to the defendant, Nobin wanted to protect
-                  her and shift her from her parent’s house, over which the
-                  Priest had control. But the latter became aware of these plans
-                  and his goons prevented the shift from happening, leading to
-                  Nobin Chandra killing his wife. Nobin then immediately went to
-                  the Police to confess his crimes. The entire series of events
-                  painted Nobin as the victim. The jury eventually acquitted the
-                  defendant on the grounds of insanity. But the Sessions judge
-                  overturned the judgement on the ground of “disagreement on the
-                  native sense of justice” and sent the case to the Calcutta
-                  High Court wherein the defendant was held guilty.
+                  {complaintData.details}
                 </div>
               </div>
             </div>
@@ -213,13 +221,13 @@ const CasePagee = () => {
                 <h2 className="flex-head" onClick={() => navigate("/Communications")}>Victim Details:</h2>
                 <div>
                   <span className="d">
-                    Name: <span className="bold">John Doe</span>
+                    Name: <span className="bold">{complaintData.compName}</span>
                   </span>
                   <span className="d">
                     Age: <span className="bold">30</span>
                   </span>
-                  <span className="d">Address: 123 Main Street</span>
-                  <span className="d">Phone: 555-555-5555</span>
+                  <span className="d">Address: {complaintData.location}</span>
+                  <span className="d">Phone: {complaintData.mobNum}</span>
                 </div>
 
               </div>
@@ -243,13 +251,13 @@ const CasePagee = () => {
                 <h2 className="flex-head">Eye Witness Details:</h2>
                 <div>
                   <span className="d">
-                    Name: <span className="bold">James Smith</span>
+                    Name: <span className="bold">{complaintData.eyewitness}</span>
                   </span>
                   <span className="d">
                     Age: <span className="bold">25</span>
                   </span>
-                  <span className="d">Address: 789 Oak Street</span>
-                  <span className="d">Phone: 555-555-5557</span>
+                  <span className="d">Address: {complaintData.eyewitloc}</span>
+                  <span className="d">Phone: {complaintData.eyewitmob}</span>
                 </div>
               </div>
             </div>

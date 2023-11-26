@@ -24,7 +24,7 @@ import CaseSearch from "./components/CaseSearch/CaseSearch";
 import Communication from "./components/Communication/Communication";
 import DashboardRole3 from "./components/DashboardRole3/DashboardRole3";
 import PopupDetail from "./components/PopupDetailsPage/PopupDetail";
-
+import Processcrimedata from "./components/Processcrimedata/Processcrimedata";
 
 function App() {
   const firebaseConfig = {
@@ -70,6 +70,7 @@ function App() {
           <Route path="/casedetails" element={<CasePagee />} />
           <Route path="/communications" element={<Communication />} />
           <Route path="/popupDetail" element={<PopupDetail />} />
+          <Route path="/processdata" element={<Processcrimedata />} />
         </Routes>
       </div>
     </Router>

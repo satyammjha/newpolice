@@ -11,6 +11,9 @@ const CaseSearch = () => {
     keyword: '',
   });
 
+
+
+  
   const [initialCases] = useState([
     {
       id: 1,
@@ -143,14 +146,6 @@ const CaseSearch = () => {
             })}
           </div>
         </div>
-
-
-
-
-
-
-
-
 
 
 

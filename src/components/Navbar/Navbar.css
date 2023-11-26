@@ -47,3 +47,17 @@
 .Interactionlog:hover {
     background-color: rgba(0, 128, 0, 0.497);
 }
+
+.navTopLeft {
+    display: flex;
+    float: left;
+    margin-left: -10%;
+    gap: 2rem;
+}
+
+.navTopRight{
+    display: flex;
+    margin-left: 30vw;
+    align-items: center;
+    gap: 2rem;
+}

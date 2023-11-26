@@ -39,7 +39,7 @@ const CrimeRateLineChart = () => {
   ];
 
   const options = {
-    title: 'Crime Rate in Chandigarh (Past One Month)',
+    title: 'Crime Rate in Your area (Past One Month)',
     hAxis: {
       title: 'Date',
       titleTextStyle: {

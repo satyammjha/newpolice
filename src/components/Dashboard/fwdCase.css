@@ -69,3 +69,24 @@ h4 {
 .date {
     margin-left: 1px;
 }
+
+#casename {
+    font-size: 12px;
+}
+
+.fwdMainContainer .fwdcaseitem .fwdtop h4 {
+    font-size: 12px;
+}
+
+.fwdcaseid {
+    font-size: 13px;
+    color: white;
+    margin-top: 5px;
+}
+#fwdcasename{
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 6px;
+    margin-right: 5px;
+    color: white;
+}
